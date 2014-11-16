@@ -6,11 +6,11 @@ from twilio.rest import TwilioRestClient
 failservice = ""
 
 #Twilio credentials
-account_sid = "ACb92ed9bb2f74c72ac3dc1cff81215aee"
-auth_token = "5ead811627e32fd0cb5221e9358041d2"
+account_sid = ""
+auth_token = ""
 client = TwilioRestClient(account_sid, auth_token)
-twilio_number = "+441133203095"
-auth_number = "+447763501564"
+twilio_number = "+44"
+auth_number = "+44"
 
 services = ["apache2", "sshd"]
 status = 1
