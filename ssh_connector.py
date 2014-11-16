@@ -11,13 +11,13 @@ app = Flask(__name__)
 
 def application():
     #Credentials
-    host = "178.62.110.112"
-    username = "root"
-    password = "demo_P@ssw0rd"
-    auth_number = "+447763501564"
-    auth_token = "5ead811627e32fd0cb5221e9358041d2"
+    host = ""
+    username = ""
+    password = ""
+    auth_number = "+44"
+    auth_token = ""
     validator = RequestValidator(auth_token)
-    url = "http://2432c85e.ngrok.com/"
+    url = ""
     sa = pxssh.pxssh()
     body_message = str(request.values.get('Body', None))
     signature = request.headers.get('X-Twilio-Signature')
