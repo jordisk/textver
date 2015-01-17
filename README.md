@@ -1,7 +1,7 @@
 TextVer
 =======
 
-Receive SMS from your server when any service is down. Start, stop reload or restart your services by sending and SMS to your server
+Receive SMS from your server when any service is down. Start, stop reload or restart your services by sending a SMS to your server.
 
 
 Check2.py
@@ -10,7 +10,7 @@ Check2.py
  - Modify the values for account_sid, auth_token, auth_number, twilio_number and services
 
 
-ssh_connector.py
+Ssh_connector.py
 ----
 - Run it in anonther server (e.g: Heroku)
 - Change the values for host, username, password, auth_number, auth_token and url
